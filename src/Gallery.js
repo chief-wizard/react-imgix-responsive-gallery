@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Imgix from 'react-imgix'
 
