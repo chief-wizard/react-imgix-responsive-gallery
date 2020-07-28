@@ -7,7 +7,7 @@ const images = [
   'river1', 'river2', 'river3'
 ]
 
-const buildURL = imagePath => `https://wizardondemand-s3.imgix.net/${imagePath}.jpeg`
+const buildURL = imagePath => `https://wizard-s3.imgix.net/${imagePath}.jpeg`
 
 export const Gallery = () => <div className="gallery">
   {images.map(image => <Imgix
